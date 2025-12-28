@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Squad Profile Card</title>
+
+  <!-- 🎨 Inner CSS Styling -->
+  <style>
+    /* Universal Styling */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f0f2f5;
+    }
+
+    /* Profile Card Styling */
+    .profile-card {
+      width: 300px;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-header {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .member-name {
+      color: #333;
+      font-size: 24px;
+    }
+
+    .member-role {
+      color: #777;
+      font-size: 16px;
+    }
+
+    .profile-body {
+      margin-top: 15px;
+    }
+
+    .member-bio {
+      line-height: 1.6;
+      color: #555;
+    }
+
+    ul.member-interests {
+      list-style-type: none;
+      padding: 0;
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    ul.member-interests li {
+      background-color: #e2e2e2;
+      padding: 5px 10px;
+      border-radius: 4px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🧱 Profile Card HTML -->
+  <div class="profile-card">
+    <div class="profile-header">
+      <h2 class="member-name">Squad Member Name</h2>
+      <p class="member-role">Frontend Developer</p>
+    </div>
+    <div class="profile-body">
+      <p class="member-bio">
+        Passionate about crafting engaging user experiences and responsive web applications.
+      </p>
+      <h3>Interests:</h3>
+      <ul class="member-interests">
+        <li>Coding</li>
+        <li>Gaming</li>
+        <li>Reading</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
